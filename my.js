@@ -1,4 +1,10 @@
-/*Name this external file gallery.js*/
+
+const images = document.querySelectorAll('.preview');
+console.log(images.length);
+for (let i = 0; i < 6; i++) {
+    images[i].setAttribute('tabindex', i + 1);
+    console.log(images[i].alt);
+  }
 
 function upDate(previewPic){
     /* In this function you should 
@@ -27,3 +33,6 @@ function unDo(){
         document.getElementById('image').innerHTML = "Hover over an image below to display here.";
         document.getElementById('image').style.border = "2px solid black";
        }
+function my_msg(){
+        alert("hello!! welcome to my page")
+}

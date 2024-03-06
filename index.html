@@ -4,25 +4,26 @@
 	<meta charset="UTF-8">
 	<title>Photo Gallery</title>
 	<link rel="stylesheet" href="style.css">
-	<script src = "my.js"></script>
+	
 </head>
-<body>
+<body onload = my_msg()>
 	
 	<div id = "image">
 		Hover over an image below to display here.
 	</div>
 	
-	<img class = "preview" alt = "Dance as a form of art" src = "images/dance.avif" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt = "Dance as a form of art" src = "images/dance.avif" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 	
-	<img class = "preview" alt = "Digital art - a new form of art" src = "images/digital.avif" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt = "Digital art - a new form of art" src = "images/digital.avif" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 	
-	<img class = "preview" src = "images/sculpture.avif" alt = "Sculpture an intricate art" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "images/sculpture.avif" alt = "Sculpture an intricate art" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 
-	<img class = "preview" src = "images/photography.avif" alt = "photography - images speak louder than words" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "images/photography.avif" alt = "photography - images speak louder than words" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 
-	<img class = "preview" src = "images/film.avif" alt = "film has always influenced peoples minds" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "images/film.avif" alt = "film has always influenced peoples minds" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 
-	<img class = "preview" src = "images/literature.avif" alt = "literature leads to the transmission of ideas" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "images/literature.avif" alt = "literature leads to the transmission of ideas" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
 
+	<script src = "my.js"></script>
 </body>
 </html>
